@@ -1,0 +1,3 @@
+pytest -v -n=5 -m sanity --html=HtmlReports/myreport_chrome.html --alluredir="D:\Credence ClassNotes\CredenceBatches\Credence_Automation_Jan 24\nopcom_Pytest\AllureReports" --browser chrome  -p no:warnings 
+pytest -v -n=5 -m sanity --html=HtmlReports/myreport_edge.html --alluredir="D:\Credence ClassNotes\CredenceBatches\Credence_Automation_Jan 24\nopcom_Pytest\AllureReports" --browser edge  -p no:warnings 
+pytest -v -n=5 -m sanity --html=HtmlReports/myreport_firefox.html --alluredir="D:\Credence Class Notes\CredenceBatches\Credence_Automation_Jan 24\nopcom_Pytest\AllureReports" --browser firefox  -p no:warnings 
